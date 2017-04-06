@@ -6,15 +6,37 @@
 </head>
 <body ng-app="mukeshapp">
 
-<div ng-controller="ctrl1">
+<div ng-controller="ctrl1 as Ashu">
 <input type="text" ng-model = "email">
-<input type="pass" ng-model = "pass">{{pass}}
-<button ng-click="dosomeWork()">Click me </button>
+<input type="pass" ng-model = "pass">{{value2}}>>>>>>>>>
+<button ng-click="doso()" ng-show="showbutton">Ctrl1 </button>
+
+
+    {{name}}??????
+
+
+
+    <div ng-controller="ctrl2">
+
+
+        {{Ashu.common}}/////////////
+
+    </div>
+
+    {{}}
+
+
+</div>
+
+{{name}}........
+<div ng-controller="ctrl2">
+
+      {{value2}}
+     <button ng-click="xyz()">ctrl2</button>
 </div>
 
 
 
-< div >
     <input type="text" ng-click="dootherwork()">
 </div>
 </body>
